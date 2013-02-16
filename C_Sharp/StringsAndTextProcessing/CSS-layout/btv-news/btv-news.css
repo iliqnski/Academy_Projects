@@ -1,0 +1,106 @@
+body, header, nav, ul, li, section, article, aside
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Arial;
+	font-size: 12px;
+	background-color: black;
+}
+.wrapper
+{
+	width: 550px;
+	border: solid 1px #52CCCC;
+	border-radius: 5px;
+	margin: 15px;
+	background-color: #215252;
+	position: relative;
+}
+header ul
+{
+	margin-left: 3px;
+	margin-top: 5px;
+}
+	header ul li
+	{
+		display: inline-block;	
+		background-color: 	#667777;
+		padding: 8px;
+	}
+	header .sport a
+	{
+		text-decoration: underline;
+	}
+		header ul li a
+		{
+			color: #A3C2C2;
+			text-decoration: none;
+		}
+		header ul li:hover
+		{
+			background-color: #215252;
+		}
+			header ul li:hover a
+			{
+				color: white;
+				text-decoration: none;
+			}
+section ul 
+{
+	width: 200px;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 11px;
+}		
+	section ul li 
+	{
+		list-style: none;
+		padding: 9px;
+		border-top: solid 1px #669999;
+		padding-left: 5px;
+	}	
+		section ul li a
+		{
+			text-decoration: none;
+			color: #BFD4D4;
+			
+		}	
+		section ul li:hover
+		{
+			background-color: #00B2B2;
+		}	
+			section ul li:hover a
+			{
+				color: white;
+			}	
+asside
+{
+	padding-top: 2px;
+}
+		
+	aside .image
+	{
+		position: absolute;
+		top: 45px;
+		right: 40px;
+	}
+		aside .image img
+		{
+			width: 310px;
+		}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

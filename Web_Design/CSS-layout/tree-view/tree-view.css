@@ -1,0 +1,38 @@
+body, dl, dt, dd
+{
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+body
+{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+dl
+{
+	width: 150px;
+}
+dd 
+{
+	padding-left: 10px;
+	display: none;
+}
+dt a
+{
+	color: black;
+	text-decoration: none;
+}
+dd a
+{
+	color: #909090;
+	text-decoration: none;
+}
+dt a:hover
+{
+	text-decoration: underline;
+}
+dl:hover dd 
+{
+	display: block;
+}

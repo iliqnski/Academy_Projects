@@ -1,0 +1,59 @@
+html,body,table,thead,tbody,tr,th,td
+{
+	margin: 0;
+	padding: 0;	
+}
+table
+{
+	font-family: Arial;
+	border-collapse: collapse;
+	border-style: hidden;
+	border-color: #C9CDCD;
+	text-align: left;
+}
+th
+{
+	border-width: 1px;
+	padding: 6px;
+	border-style: inset;
+	border-color: #C9CDCD;
+}
+td
+{
+	border-width: 1px;
+	border-style: none solid;
+	padding: 8px;
+	border-color: #C9CDCD;
+}
+.header
+{
+	color: #FFFFFF;
+	background-color: #7CCF29;
+}
+.grey
+{
+	background-color: #EEF0F0;
+}
+.resize
+{
+    	width:30px;
+    	height: 20px;
+	vertical-align:top;
+}
+#name
+{
+	width: 175px;
+}
+#city
+{
+	width: 150px;
+}
+#country
+{
+	width: 165px;
+}
+#promoted
+{
+	width: 110px;
+	text-align: center;
+}

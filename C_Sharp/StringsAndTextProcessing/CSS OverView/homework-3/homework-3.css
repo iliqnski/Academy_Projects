@@ -1,0 +1,49 @@
+body
+{
+	background-color: #C8C8C8;
+}
+h1
+{
+	color: #FFFFDA;
+}
+li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+section footer
+{
+	font-size: 75%;
+}
+footer a
+{
+	color: #000000;
+	text-decoration: none;
+}
+li
+{
+	list-style-type:none;
+}
+li a:hover
+{
+	background-color: #E0E0E0;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: none;
+}
+li:nth-child(4)
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+body  > footer
+{
+	text-align: center;
+	padding: 10px;
+}
+body > header
+{
+	text-align: center;
+}

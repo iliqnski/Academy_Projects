@@ -1,0 +1,60 @@
+html,body,table,tbody,tr,td
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: grey;
+	font-family:sans-serif;
+}
+table
+{
+	font-size: 15px;
+}
+td
+{
+	padding:8px;
+}
+p
+{
+	padding: 9px;
+}
+#name
+{
+	vertical-align:top;
+}
+.link
+{
+	color: #FFFFCC;
+	text-decoration: none;
+}
+.heading
+{
+	color: #C0C0C0;
+	font-size: 22px;
+}
+.support
+{
+	color: #FF1919;
+}
+.time , .action
+{
+	color: #C0C0C0;
+}
+.status
+{
+	color: #FF9900;
+}
+.definition
+{
+	color: #FFFFFF;
+	font-style:italic;
+}
+.circle
+{
+    border-radius: 50%;
+	width: 1px;
+	height: 1px;
+    background-color: #7FCC7F;
+}

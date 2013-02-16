@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8">
+	<link href="Calculator.css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="Calculator">
+		<div id="inset">		
+			<ul id="menu">
+				<li><span class="underline">V</span>iew</li>
+				<li><span class="underline">E</span>dit</li>
+				<li><span class="underline">H</span>elp</li>
+			</ul>			
+			<input type="text" value="88544550"/>		
+			<div id="bits-field">
+				<ul class="first-row">
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+				</ul>
+				<ul class="second-row">
+					<li>63&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>					
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>47&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;32</li>
+				</ul>
+				<ul class="third-row">
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+				</ul>
+				<ul class="fourth-row">
+					<li>31&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>					
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>15&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>&nbsp;&nbsp;&nbsp;0</li>
+				</ul>
+			</div>
+			<div id="asside">
+				<div id="Numeral-Systems">
+					<ul>
+						<li><input type="radio" name="Numeral-Systems"/>Hex</li>
+						<li><input type="radio" name="Numeral-Systems" checked/>Dec</li>
+						<li><input type="radio" name="Numeral-Systems"/>Oct</li>
+						<li><input type="radio" name="Numeral-Systems"/>Bin</li>
+					</ul>
+				</div>
+				<div id="Numeral-Length">
+					<ul>
+						<li><input type="radio" name="Numeral-Length" checked>Qword</li>
+						<li><input type="radio" name="Numeral-Length">Dword</li>
+						<li><input type="radio" name="Numeral-Length">Word</li>
+						<li><input type="radio" name="Numeral-Length">Byte</li>
+					</ul>
+				</div>
+			</div>
+			<div id="buttons">
+				<div>
+					<input type="button" class="disabled" disabled value="&nbsp;">
+					<input type="button" value="Mod" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="A"/>
+					<input type="button" class="function" value="MC"/>
+					<input type="button" class="function" value="MR"/>
+					<input type="button" class="function" value="MS"/>
+					<input type="button" class="function" value="M+"/>
+					<input type="button" class="function" value="M-"/>
+				</div>
+				<div id="first-row">
+					<input type="button" value="(" class="not-disabled"/>
+					<input type="button" value=")" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="B"/>
+					<input type="button" value="&larr;" class="not-disabled"/>
+					<input type="button" value="CE" class="not-disabled"/>
+					<input type="button" value="C" class="not-disabled"/>
+					<input type="button" value="&#177;" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="&#8730;"/>
+				</div>
+				<div id="second-row">
+					<input type="button" value="RoL" class="not-disabled"/>
+					<input type="button" value="RoR" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="C"/>
+					<input type="button" value="7" class="digit"/>
+					<input type="button" value="8" class="digit"/>
+					<input type="button" value="9" class="digit"/>
+					<input type="button" value="/" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="%"/>
+				</div>
+				<div id="third-row">
+					<input type="button" value="Or" class="not-disabled"/>
+					<input type="button" value="Xor" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="D"/>
+					<input type="button" value="4" class="digit"/>
+					<input type="button" value="5" class="digit"/>
+					<input type="button" value="6" class="digit"/>
+					<input type="button" value="*" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="1/x"/>
+				</div>
+				<div id="fourth-row">
+					<input type="button" value="Lsh" class="not-disabled"/>
+					<input type="button" value="Rsh" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="E"/>
+					<input type="button" value="1" class="digit"/>
+					<input type="button" value="2" class="digit"/>
+					<input type="button" value="3" class="digit"/>
+					<input type="button" value="-" class="not-disabled"/>			
+				</div>
+				<div>
+					<input type="button" value="=" class="equal"/>
+				</div>
+				<div id="fifth-row">
+					<input type="button" value="Not" class="not-disabled"/>
+					<input type="button" value="And" class="not-disabled"/>
+					<input type="button" class="disabled" disabled value="F"/>
+					<input type="button" value="0" class="zero"/>
+					<input type="button" class="disabled" disabled value="."/>
+					<input type="button" value="+" class="not-disabled"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
